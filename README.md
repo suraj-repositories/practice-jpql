@@ -68,3 +68,4 @@ List<Product> findProductsByCategoryName(@Param("categoryName") String categoryN
 Page<Category> findByNameContainingAndParentCategory(String search, Category parentCategory, Pageable pageable);
 ```
 
+10. `CriteriaBuilder` class provides more featured way to implement jpa repository
